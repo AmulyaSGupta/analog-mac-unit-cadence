@@ -41,4 +41,13 @@ The MAC unit performs the operation:
 ## 🚀 Future Scope
 - Layout design (DRC & LVS)  
 - Higher bit-width MAC implementation  
-- Optimization for power and speed  
+- Optimization for power and speed
+## 🖼️ Design Implementation
+
+---
+
+### MAC Unit Schematic
+![MAC](images/mac_schematic.png)
+
+### Output Waveform
+![Waveform](images/waveform1.png)
