@@ -46,8 +46,33 @@ The MAC unit performs the operation:
 
 ---
 
-### MAC Unit Schematic
-![MAC](images/mac_schematic.png)
+## 🖼️ Design Implementation
 
-### Output Waveform
-![Waveform](images/waveform1.png)
+### 🔹 MAC Unit Block Diagram
+![MAC Block](images/mac_unit_block.png)
+
+### 🔹 MAC Unit Schematic
+![MAC Schematic](images/mac_unit_schematic.png)
+
+### 🔹 MAC Unit Symbol
+![MAC Symbol](images/mac_unit_symbol.png)
+
+### 🔹 Output Waveforms
+![Waveform1](images/mac_waveform1.png)
+![Waveform2](images/mac_waveform2.png)
+
+---
+
+## 🔧 Building Blocks
+
+### 🔹 4×4 Multiplier
+![Multiplier](images/multiplier_4x4.png)
+
+### 🔹 8-bit Register
+![Register](images/register_8bit.png)
+
+### 🔹 D Flip-Flop (Transmission Gate)
+![DFF](images/dff.png)
+
+### 🔹 Transmission Gate
+![TG](images/transmission_gate.png)
