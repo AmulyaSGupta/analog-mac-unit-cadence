@@ -1,48 +1,29 @@
-# Analog MAC Unit Design using CMOS (Cadence Virtuoso)
+# 🔧 Analog MAC Unit Design using CMOS (Cadence Virtuoso)
 
-## 📌 Overview
-This project presents the design and simulation of a MAC (Multiplier and Accumulator) unit using CMOS technology in Cadence Virtuoso.
-
-The design integrates fundamental building blocks such as adders, multipliers, registers, and flip-flops to perform multiplication and accumulation operations.
+> Design and simulation of a Multiplier–Accumulator (MAC) unit at transistor level using Cadence Virtuoso.
 
 ---
 
-## ⚙️ Tools Used
-- Cadence Virtuoso
+## 🧩 Overview
+This project implements a **MAC (Multiplier and Accumulator)** using CMOS logic. It integrates arithmetic and sequential blocks to perform:
+  
+**Y = Σ (Ai × Bi)**
+
+The design is validated using transient simulations and analyzed for delay and power.
+
+---
+
+## ⚙️ Tools & Technology
+- Cadence Virtuoso (Schematic + Simulation)
 - CMOS Technology
 
 ---
 
-## 🧠 Design Components
-- 8-bit Adder  
-- 4×4 Multiplier  
-- 8-bit Register  
-- D Flip-Flop (Transmission Gate Based)
-
----
-
-## 🔄 Working Principle
-The MAC unit performs the operation:
-
-**Output = ∑ (Ai × Bi)**
-
-- Multiplier generates product  
-- Adder accumulates result  
-- Register stores intermediate values  
-
----
-
-## 📊 Performance
-- Propagation Delay: ~949 ps  
-- Power Consumption: ~104 nW  
-
----
-
-## 🚀 Future Scope
-- Layout design (DRC & LVS)  
-- Higher bit-width MAC implementation  
-- Optimization for power and speed
-## 🖼️ Design Implementation
+## 🧠 Architecture
+- 4×4 Multiplier (partial products + adders)
+- 8-bit Adder
+- 8-bit Register
+- D Flip-Flop (Transmission Gate)
 
 ---
 
@@ -76,3 +57,29 @@ The MAC unit performs the operation:
 
 ### 🔹 Transmission Gate
 ![TG](images/transmission_gate.png)
+
+---
+
+## 📊 Performance Results
+- **Propagation Delay:** ~949 ps  
+- **Average Power:** ~104 nW  
+
+---
+
+## 📌 Key Learnings
+- Transistor-level CMOS design  
+- Analog simulation (transient analysis)  
+- Integration of arithmetic + sequential blocks  
+- Performance evaluation (delay & power)
+
+---
+
+## 🚀 Future Improvements
+- Layout design (DRC & LVS)  
+- Power optimization techniques  
+- Higher bit-width MAC implementation  
+
+---
+
+## 👩‍💻 Author
+**Amulya S Gupta**
